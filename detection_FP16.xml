@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<net batch="1" name="text-detection-0003" version="6">
+<net batch="1" name="text-detection-0003" version="5">
 	<layers>
 		<layer id="0" name="Placeholder" precision="FP16" type="Input">
 			<output>
