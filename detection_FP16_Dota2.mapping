@@ -1,0 +1,555 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="model/add_4/add" out_port_id="0"/>
+		<IR id="63" name="model/add_4/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_34/Relu6" out_port_id="0"/>
+		<IR id="117" name="model/re_lu_34/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/add_6/add" out_port_id="0"/>
+		<IR id="84" name="model/add_6/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2d_37/BiasAdd" out_port_id="0"/>
+		<IR id="130" name="model/conv2d_37/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/add_13/add" out_port_id="0"/>
+		<IR id="125" name="model/add_13/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/add_3/add" out_port_id="0"/>
+		<IR id="56" name="model/add_3/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2d_40/BiasAdd" out_port_id="0"/>
+		<IR id="121" name="model/conv2d_40/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_41/FusedBatchNorm" out_port_id="0"/>
+		<IR id="96" name="model/separable_conv2d_13/separable_conv2d" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="4" name="model/conv2d_1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/separable_conv2d/separable_conv2d/depthwise" out_port_id="0"/>
+		<IR id="6" name="model/separable_conv2d/separable_conv2d/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_26/Relu6" out_port_id="0"/>
+		<IR id="89" name="model/re_lu_26/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_38/FusedBatchNorm" out_port_id="0"/>
+		<IR id="88" name="model/separable_conv2d_12/separable_conv2d" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_4/Relu6" out_port_id="0"/>
+		<IR id="14" name="model/re_lu_4/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_23/Relu6" out_port_id="0"/>
+		<IR id="79" name="model/re_lu_23/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_3/Relu6" out_port_id="0"/>
+		<IR id="11" name="model/re_lu_3/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_27/FusedBatchNorm" out_port_id="0"/>
+		<IR id="62" name="model/conv2d_18/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_7/FusedBatchNorm" out_port_id="0"/>
+		<IR id="16" name="model/conv2d_5/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_19/FusedBatchNorm" out_port_id="0"/>
+		<IR id="44" name="model/conv2d_13/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_13/FusedBatchNorm" out_port_id="0"/>
+		<IR id="30" name="model/conv2d_9/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_25/FusedBatchNorm" out_port_id="0"/>
+		<IR id="57" name="model/conv2d_17/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_14/FusedBatchNorm" out_port_id="0"/>
+		<IR id="33" name="model/separable_conv2d_4/separable_conv2d" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_18/Relu6" out_port_id="0"/>
+		<IR id="61" name="model/re_lu_18/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_43/FusedBatchNorm" out_port_id="0"/>
+		<IR id="99" name="model/conv2d_29/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_11/Relu6" out_port_id="0"/>
+		<IR id="38" name="model/re_lu_11/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_20/FusedBatchNorm" out_port_id="0"/>
+		<IR id="47" name="model/separable_conv2d_6/separable_conv2d" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_10/FusedBatchNorm" out_port_id="0"/>
+		<IR id="24" name="model/conv2d_7/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_47/FusedBatchNorm" out_port_id="0"/>
+		<IR id="109" name="model/separable_conv2d_15/separable_conv2d" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/separable_conv2d_11/separable_conv2d/depthwise" out_port_id="0"/>
+		<IR id="80" name="model/separable_conv2d_11/separable_conv2d/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_22/Relu6" out_port_id="0"/>
+		<IR id="76" name="model/re_lu_22/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_6/Relu6" out_port_id="0"/>
+		<IR id="20" name="model/re_lu_6/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_20/Relu6" out_port_id="0"/>
+		<IR id="68" name="model/re_lu_20/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_51/FusedBatchNorm" out_port_id="0"/>
+		<IR id="118" name="model/conv2d_34/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/separable_conv2d_3/separable_conv2d/depthwise" out_port_id="0"/>
+		<IR id="26" name="model/separable_conv2d_3/separable_conv2d/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/add_12/add" out_port_id="0"/>
+		<IR id="123" name="model/add_12/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_17/Relu6" out_port_id="0"/>
+		<IR id="58" name="model/re_lu_17/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_44/FusedBatchNorm" out_port_id="0"/>
+		<IR id="102" name="model/separable_conv2d_14/separable_conv2d" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_5/Relu6" out_port_id="0"/>
+		<IR id="17" name="model/re_lu_5/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/up_sampling2d_2/ResizeBilinear" out_port_id="0"/>
+		<IR id="136" name="model/up_sampling2d_2/ResizeBilinear" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/data_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="1" name="Mul1_/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_14/Relu6" out_port_id="0"/>
+		<IR id="48" name="model/re_lu_14/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_23/FusedBatchNorm" out_port_id="0"/>
+		<IR id="53" name="model/separable_conv2d_7/separable_conv2d" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/separable_conv2d_7/separable_conv2d/depthwise" out_port_id="0"/>
+		<IR id="52" name="model/separable_conv2d_7/separable_conv2d/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/add_2/add" out_port_id="0"/>
+		<IR id="43" name="model/add_2/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_52/FusedBatchNorm" out_port_id="0"/>
+		<IR id="119" name="model/conv2d_35/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/re_lu/Relu6" out_port_id="0"/>
+		<IR id="3" name="model/re_lu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="7" name="model/separable_conv2d/separable_conv2d" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_8/FusedBatchNorm" out_port_id="0"/>
+		<IR id="19" name="model/separable_conv2d_2/separable_conv2d" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_16/FusedBatchNorm" out_port_id="0"/>
+		<IR id="37" name="model/conv2d_11/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/up_sampling2d/ResizeBilinear" out_port_id="0"/>
+		<IR id="132" name="model/up_sampling2d/ResizeBilinear" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_26/FusedBatchNorm" out_port_id="0"/>
+		<IR id="60" name="model/separable_conv2d_8/separable_conv2d" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_24/FusedBatchNorm" out_port_id="0"/>
+		<IR id="55" name="model/conv2d_16/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/separable_conv2d_6/separable_conv2d/depthwise" out_port_id="0"/>
+		<IR id="46" name="model/separable_conv2d_6/separable_conv2d/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_17/FusedBatchNorm" out_port_id="0"/>
+		<IR id="40" name="model/separable_conv2d_5/separable_conv2d" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_31/Relu6" out_port_id="0"/>
+		<IR id="107" name="model/re_lu_31/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="2" name="model/conv2d/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/separable_conv2d_1/separable_conv2d/depthwise" out_port_id="0"/>
+		<IR id="12" name="model/separable_conv2d_1/separable_conv2d/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_11/FusedBatchNorm" out_port_id="0"/>
+		<IR id="27" name="model/separable_conv2d_3/separable_conv2d" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/separable_conv2d_14/separable_conv2d/depthwise" out_port_id="0"/>
+		<IR id="101" name="model/separable_conv2d_14/separable_conv2d/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_29/FusedBatchNorm" out_port_id="0"/>
+		<IR id="67" name="model/separable_conv2d_9/separable_conv2d" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_19/Relu6" out_port_id="0"/>
+		<IR id="65" name="model/re_lu_19/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_31/FusedBatchNorm" out_port_id="0"/>
+		<IR id="72" name="model/conv2d_21/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_25/Relu6" out_port_id="0"/>
+		<IR id="86" name="model/re_lu_25/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_18/FusedBatchNorm" out_port_id="0"/>
+		<IR id="42" name="model/conv2d_12/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/separable_conv2d_8/separable_conv2d/depthwise" out_port_id="0"/>
+		<IR id="59" name="model/separable_conv2d_8/separable_conv2d/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/separable_conv2d_15/separable_conv2d/depthwise" out_port_id="0"/>
+		<IR id="108" name="model/separable_conv2d_15/separable_conv2d/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2d_41/BiasAdd" out_port_id="0"/>
+		<IR id="92" name="model/conv2d_41/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_40/FusedBatchNorm" out_port_id="0"/>
+		<IR id="93" name="model/conv2d_27/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_5/FusedBatchNorm" out_port_id="0"/>
+		<IR id="13" name="model/separable_conv2d_1/separable_conv2d" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/up_sampling2d_1/ResizeBilinear" out_port_id="0"/>
+		<IR id="134" name="model/up_sampling2d_1/ResizeBilinear" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/add_1/add" out_port_id="0"/>
+		<IR id="36" name="model/add_1/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_9/FusedBatchNorm" out_port_id="0"/>
+		<IR id="21" name="model/conv2d_6/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/conv2d_43/BiasAdd" out_port_id="0"/>
+		<IR id="23" name="model/conv2d_43/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/separable_conv2d_2/separable_conv2d/depthwise" out_port_id="0"/>
+		<IR id="18" name="model/separable_conv2d_2/separable_conv2d/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_49/FusedBatchNorm" out_port_id="0"/>
+		<IR id="113" name="model/conv2d_33/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/separable_conv2d_5/separable_conv2d/depthwise" out_port_id="0"/>
+		<IR id="39" name="model/separable_conv2d_5/separable_conv2d/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_21/Relu6" out_port_id="0"/>
+		<IR id="73" name="model/re_lu_21/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/segm_logits/add" out_port_id="0"/>
+		<IR id="137" name="model/segm_logits/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_33/Relu6" out_port_id="0"/>
+		<IR id="114" name="model/re_lu_33/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_3/FusedBatchNorm" out_port_id="0"/>
+		<IR id="9" name="model/conv2d_2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/add_10/add" out_port_id="0"/>
+		<IR id="133" name="model/add_10/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2d_39/BiasAdd" out_port_id="0"/>
+		<IR id="128" name="model/conv2d_39/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_28/FusedBatchNorm" out_port_id="0"/>
+		<IR id="64" name="model/conv2d_19/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_16/Relu6" out_port_id="0"/>
+		<IR id="54" name="model/re_lu_16/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/add_7/add" out_port_id="0"/>
+		<IR id="91" name="model/add_7/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_36/FusedBatchNorm" out_port_id="0"/>
+		<IR id="83" name="model/conv2d_24/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_6/FusedBatchNorm" out_port_id="0"/>
+		<IR id="15" name="model/conv2d_4/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_8/Relu6" out_port_id="0"/>
+		<IR id="28" name="model/re_lu_8/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/add_5/add" out_port_id="0"/>
+		<IR id="70" name="model/add_5/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_45/FusedBatchNorm" out_port_id="0"/>
+		<IR id="104" name="model/conv2d_30/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_12/Relu6" out_port_id="0"/>
+		<IR id="41" name="model/re_lu_12/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/add_8/add" out_port_id="0"/>
+		<IR id="105" name="model/add_8/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_29/Relu6" out_port_id="0"/>
+		<IR id="100" name="model/re_lu_29/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/add_9/add" out_port_id="0"/>
+		<IR id="112" name="model/add_9/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_7/Relu6" out_port_id="0"/>
+		<IR id="25" name="model/re_lu_7/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/separable_conv2d_4/separable_conv2d/depthwise" out_port_id="0"/>
+		<IR id="32" name="model/separable_conv2d_4/separable_conv2d/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_22/FusedBatchNorm" out_port_id="0"/>
+		<IR id="50" name="model/conv2d_15/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/separable_conv2d_12/separable_conv2d/depthwise" out_port_id="0"/>
+		<IR id="87" name="model/separable_conv2d_12/separable_conv2d/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_34/FusedBatchNorm" out_port_id="0"/>
+		<IR id="78" name="model/conv2d_23/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_10/Relu6" out_port_id="0"/>
+		<IR id="34" name="model/re_lu_10/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_32/Relu6" out_port_id="0"/>
+		<IR id="110" name="model/re_lu_32/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_42/FusedBatchNorm" out_port_id="0"/>
+		<IR id="98" name="model/conv2d_28/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_33/FusedBatchNorm" out_port_id="0"/>
+		<IR id="77" name="model/conv2d_22/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_13/Relu6" out_port_id="0"/>
+		<IR id="45" name="model/re_lu_13/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/up_sampling2d_5/ResizeBilinear" out_port_id="0"/>
+		<IR id="126" name="model/up_sampling2d_5/ResizeBilinear" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/up_sampling2d_3/ResizeBilinear" out_port_id="0"/>
+		<IR id="122" name="model/up_sampling2d_3/ResizeBilinear" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_35/FusedBatchNorm" out_port_id="0"/>
+		<IR id="81" name="model/separable_conv2d_11/separable_conv2d" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_15/Relu6" out_port_id="0"/>
+		<IR id="51" name="model/re_lu_15/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/separable_conv2d_16/separable_conv2d/depthwise" out_port_id="0"/>
+		<IR id="115" name="model/separable_conv2d_16/separable_conv2d/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_28/Relu6" out_port_id="0"/>
+		<IR id="97" name="model/re_lu_28/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_39/FusedBatchNorm" out_port_id="0"/>
+		<IR id="90" name="model/conv2d_26/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/separable_conv2d_10/separable_conv2d/depthwise" out_port_id="0"/>
+		<IR id="74" name="model/separable_conv2d_10/separable_conv2d/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_1/Relu6" out_port_id="0"/>
+		<IR id="5" name="model/re_lu_1/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/up_sampling2d_4/ResizeBilinear" out_port_id="0"/>
+		<IR id="124" name="model/up_sampling2d_4/ResizeBilinear" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="Reshape" out_port_id="0"/>
+		<IR id="127" name="model/link_logits_/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_2/Relu6" out_port_id="0"/>
+		<IR id="8" name="model/re_lu_2/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_9/Relu6" out_port_id="0"/>
+		<IR id="31" name="model/re_lu_9/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_46/FusedBatchNorm" out_port_id="0"/>
+		<IR id="106" name="model/conv2d_31/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_30/FusedBatchNorm" out_port_id="0"/>
+		<IR id="69" name="model/conv2d_20/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/conv2d_38/BiasAdd" out_port_id="0"/>
+		<IR id="129" name="model/conv2d_38/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_37/FusedBatchNorm" out_port_id="0"/>
+		<IR id="85" name="model/conv2d_25/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_48/FusedBatchNorm" out_port_id="0"/>
+		<IR id="111" name="model/conv2d_32/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="Placeholder" out_port_id="0"/>
+		<IR id="0" name="Placeholder" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_50/FusedBatchNorm" out_port_id="0"/>
+		<IR id="116" name="model/separable_conv2d_16/separable_conv2d" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_21/FusedBatchNorm" out_port_id="0"/>
+		<IR id="49" name="model/conv2d_14/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_30/Relu6" out_port_id="0"/>
+		<IR id="103" name="model/re_lu_30/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_12/FusedBatchNorm" out_port_id="0"/>
+		<IR id="29" name="model/conv2d_8/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/conv2d_42/BiasAdd" out_port_id="0"/>
+		<IR id="71" name="model/conv2d_42/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/add/add" out_port_id="0"/>
+		<IR id="22" name="model/add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/separable_conv2d_9/separable_conv2d/depthwise" out_port_id="0"/>
+		<IR id="66" name="model/separable_conv2d_9/separable_conv2d/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_35/Relu6" out_port_id="0"/>
+		<IR id="120" name="model/re_lu_35/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/add_11/add" out_port_id="0"/>
+		<IR id="135" name="model/add_11/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_32/FusedBatchNorm" out_port_id="0"/>
+		<IR id="75" name="model/separable_conv2d_10/separable_conv2d" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_27/Relu6" out_port_id="0"/>
+		<IR id="94" name="model/re_lu_27/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2d_36/BiasAdd" out_port_id="0"/>
+		<IR id="131" name="model/conv2d_36/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/re_lu_24/Relu6" out_port_id="0"/>
+		<IR id="82" name="model/re_lu_24/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_15/FusedBatchNorm" out_port_id="0"/>
+		<IR id="35" name="model/conv2d_10/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/batch_normalization_v2_4/FusedBatchNorm" out_port_id="0"/>
+		<IR id="10" name="model/conv2d_3/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="model/separable_conv2d_13/separable_conv2d/depthwise" out_port_id="0"/>
+		<IR id="95" name="model/separable_conv2d_13/separable_conv2d/depthwise" out_port_id="2"/>
+	</map>
+</mapping>
