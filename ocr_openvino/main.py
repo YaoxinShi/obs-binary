@@ -47,7 +47,7 @@ if __name__=='__main__':
 	totaltime = 0
 	detection = 0
 	recognition = 0
-	res_txt = open('containernumber_result_new.txt', 'w')
+	#res_txt = open('containernumber_result_new.txt', 'w')
 	#default: only  one image 
 	imlist = glob('./testinput/*.png')
 	start = time.time()
@@ -57,7 +57,8 @@ if __name__=='__main__':
 		im = cv2.imread(imfn)
 		_range = np.max(abs(im))
 		im = im / _range
-		#print(im)
+		#print(im.shape)
+		#print(im[0][0:10])
 		imname = os.path.basename(imfn)
 		detect_start = time.time()
 
